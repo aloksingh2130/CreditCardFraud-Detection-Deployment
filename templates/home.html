@@ -1,0 +1,32 @@
+<html>
+    <body bgcolor=#d4a3ae>
+
+        <center>
+
+        <h1> Credit Card Fraud Detector </h1><br>
+        
+        <form method="POST", action="{{url_for('predict')}}">
+           <b> Amount :  <input type="text", name='Amount', placeholder="enter 1"> <br><br>
+            V1 :  <input type="text", name='V1', placeholder="enter 2"> <br><br>
+            V7 :  <input type="text", name='V7', placeholder="enter 3"> <br><br>
+            V8 :  <input type="text", name='V8', placeholder="enter 4"> <br><br>
+            V12 :  <input type="text", name='V12', placeholder="enter 5"> <br><br>
+            V14 :  <input type="text", name='V14', placeholder="enter 6"> <br><br>
+            V22 :  <input type="text", name='V22', placeholder="enter 7"> <br><br>
+            V26 :  <input type="text", name='V26', placeholder="enter 8"> <br><br>
+            prob :  <input type="text", name='prob', placeholder="enter 9"> <br><br>
+            X1 :  <input type="text", name='X1', placeholder="enter 10"> <br><br>
+            X5 :  <input type="text", name='X5', placeholder="enter 11"> <br><br>
+            X6 :  <input type="text", name='X6', placeholder="enter 12"> <br><br>
+            V4 :  <input type="text", name='V4', placeholder="enter 13"> <br><br>
+            V10 :  <input type="text", name='V10', placeholder="enter 14"> <br><br>
+            V13 : <input type="text", name='V13', placeholder="enter 15"> <br><br><br></b>
+            <input type="submit" , value='predict!' >
+        </form>
+
+        <img src='' alt="">
+        
+    </center>
+
+    </body>
+</html>
