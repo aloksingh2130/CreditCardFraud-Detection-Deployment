@@ -19,7 +19,7 @@ def predict():
     final_features = [np.array(int_features)]
     prediction = model.predict_proba(final_features)
     predictions = prediction[:,1]
-    THRESHOLD=0.117
+    THRESHOLD=0.246
     preds = np.where(predictions > THRESHOLD, 1, 0)
     output = preds[0]
     # if preds[0]==1:
